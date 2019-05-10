@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "noImplicitReturns": true,
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["dom", "es2017"],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules"],
+    "include": [
+        "./src/**/*", 
+        "src/index.ts", 
+        "src/routes", 
+        "src/public", 
+        "src/controller"
+    ]
+}
+
